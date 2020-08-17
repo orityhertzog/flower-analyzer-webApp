@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="89623165-89a0-4049-8a6d-0e510c0519b9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/models/yolov3_training_final.weights" beforeDir="false" afterPath="$PROJECT_DIR$/static/models/yolov3_training_final.weights" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/uploads/17159816388_deafbebdb0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/uploads/after_detection-08-16-2020_195802.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/uploads/crop_img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/uploads/detect_img08-16-2020_195802.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/uploads/detect_img08-16-2020_195803.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/uploads/detect_img08-16-2020_195804.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +21,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fwSyENlerfXnLUASy4zADUZCCD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -37,7 +32,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Downloads/finalProject/finalProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -160,21 +155,21 @@
       <screen x="0" y="0" width="1093" height="574" />
     </state>
     <state x="327" y="44" key="FileChooserDialogImpl/0.0.1093.574@0.0.1093.574" timestamp="1597584845152" />
-    <state width="1072" height="142" key="GridCell.Tab.0.bottom" timestamp="1597650233972">
+    <state width="1072" height="142" key="GridCell.Tab.0.bottom" timestamp="1597669350769">
       <screen x="0" y="0" width="1093" height="574" />
     </state>
-    <state width="1072" height="142" key="GridCell.Tab.0.bottom/0.0.1093.574@0.0.1093.574" timestamp="1597650233972" />
-    <state width="1072" height="142" key="GridCell.Tab.0.center" timestamp="1597650233972">
+    <state width="1072" height="142" key="GridCell.Tab.0.bottom/0.0.1093.574@0.0.1093.574" timestamp="1597669350769" />
+    <state width="1072" height="142" key="GridCell.Tab.0.center" timestamp="1597669350768">
       <screen x="0" y="0" width="1093" height="574" />
     </state>
-    <state width="1072" height="142" key="GridCell.Tab.0.center/0.0.1093.574@0.0.1093.574" timestamp="1597650233972" />
-    <state width="1072" height="142" key="GridCell.Tab.0.left" timestamp="1597650233971">
+    <state width="1072" height="142" key="GridCell.Tab.0.center/0.0.1093.574@0.0.1093.574" timestamp="1597669350768" />
+    <state width="1072" height="142" key="GridCell.Tab.0.left" timestamp="1597669350768">
       <screen x="0" y="0" width="1093" height="574" />
     </state>
-    <state width="1072" height="142" key="GridCell.Tab.0.left/0.0.1093.574@0.0.1093.574" timestamp="1597650233971" />
-    <state width="1072" height="142" key="GridCell.Tab.0.right" timestamp="1597650233972">
+    <state width="1072" height="142" key="GridCell.Tab.0.left/0.0.1093.574@0.0.1093.574" timestamp="1597669350768" />
+    <state width="1072" height="142" key="GridCell.Tab.0.right" timestamp="1597669350768">
       <screen x="0" y="0" width="1093" height="574" />
     </state>
-    <state width="1072" height="142" key="GridCell.Tab.0.right/0.0.1093.574@0.0.1093.574" timestamp="1597650233972" />
+    <state width="1072" height="142" key="GridCell.Tab.0.right/0.0.1093.574@0.0.1093.574" timestamp="1597669350768" />
   </component>
 </project>
