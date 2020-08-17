@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+
+<main role="main" class="inner cover">
+        <h1 class="cover-heading">Analyzing the Image</h1>
+    <center>
+        {% if msg %}
+        <div class="no-objects">
+            <h2 class="cover-heading bm-3" style="color:red">{{ msg }}</h2>
+            <h3 class="cover-heading">try using a different image </h3>
+            <br><br>
+            <a type="button" class="btn btn-lg btn-primary" href="{{ url_for('home') }}">Back to Homepage</a>
+        </div>
+        {% else %}
+            {% if flower_msg is not none %}
+                {% for flower in flower_msg %}
+                    <div class="present-the-predictions">
+                        <h2 class="cover-heading">{{ flower[0] }}</h2>
+                        <img src="{{ flower[1] }}">
+                    </div>
+                {% endfor %}
+            {% endif %}
+            {% if leaf_msg is not none %}
+                {% for leaf in leaf_msg %}
+                    <div class="present-the-predictions bm-3">
+                        <h2 class="cover-heading">{{ leaf[0] }}</h2>
+                        <img src="{{ leaf[1] }}">
+                    </div>
+                {% endfor %}
+            {% endif %}
+        <br>
+            <a type="button" class="btn btn-lg btn-primary bm-3" href="{{ url_for('home') }}">Back to Homepage</a>
+        {% endif %}
+    </center></main>
+{% endblock %}

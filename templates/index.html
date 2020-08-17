@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block content %}
+<br>
+
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+    <main role="main" class="inner cover">
+
+        <h1 class="cover-heading">Welcome to ReLeaf</h1>
+        <p class="lead">ReLeaf is a web app for plant recognition, and health condition recognition. upload a picture and we let us do the work for you</p>
+        <center>
+            <br><br>
+        <p class="lead">
+            <div>
+                <form method="post" enctype="multipart/form-data">
+                    <input type="file" name="file" id="input-file" accept="image/*">
+                <button type="submit" class="btn btn-sm btn-primary">Upload</button>
+                </form>
+            </div>
+        </p>
+            <div class="img-show">
+                {% if img_src %}
+                <img src="{{ img_src }}">
+                {% else %}
+                 <h2 style="color:red">{{msg}}</h2>
+                {% endif %}
+            </div>
+            <br><br>
+
+             <!--Analyze button-->
+            <p class="lead">
+            <a type="button" class="btn btn-lg btn-secondary" href="{{ url_for('analyze_img', img_path=file_name) }}">Analyze</a>
+            </p>
+        </center>
+    </main>
+</div>
+
+{% endblock %}
